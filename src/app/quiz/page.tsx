@@ -1,5 +1,5 @@
 import { PROJECT_TITLE } from "~/lib/constants";
-import WalletIntegration from "~/components/WalletIntegration";
+import WalletIntegration from "../../components/WalletIntegration";
 
 export default function QuizPage() {
   return (
