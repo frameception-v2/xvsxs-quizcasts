@@ -1,7 +1,7 @@
 Here's the prioritized implementation checklist for your Farcaster Quiz Frame v2:
 
 **Foundation Setup**
-- [ ] Initialize Next.js TypeScript project with `/quiz` route (Next.js)
+- [x] Initialize Next.js TypeScript project with `/quiz` route (Next.js)
 - [ ] Configure NEYNAR_API_KEY in .env.local (Environment)
 - [x] Create QuizState type with questions, score, currentIndex (Types)
 - [ ] Define CastResponse type with cast text and metadata (Types)
