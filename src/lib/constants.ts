@@ -10,6 +10,17 @@ export interface QuizQuestion {
   castReference: string;
 }
 
+export interface CastResponse {
+  text: string;
+  hash: string;
+  author: {
+    fid: number;
+    username: string;
+  };
+  timestamp: Date;
+  mentions: string[];
+}
+
 export interface QuizState {
   questions: QuizQuestion[];
   currentQuestionIndex: number;
